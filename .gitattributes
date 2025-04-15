@@ -1,0 +1,6 @@
+# 强制所有文本文件使用Unix换行符
+* text=auto eol=lf
+
+# 二进制文件特殊处理
+*.png binary
+*.jpg binary

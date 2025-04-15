@@ -1,0 +1,51 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+build/
+dist/
+downloads/
+processed/
+.eggs/
+lib/
+lib64/
+Lib/
+memmos/
+Scripts/
+
+pyvenv.cfg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
